@@ -28,9 +28,9 @@ const Navbar = () => {
           </ul>
         </div>
         <div class="navbar-end">
-             <div className="flex relative">
+             <div className="relative hidden md:flex ">
                <input type="text" placeholder="search" className="border bottom-2 py-1 px-2" />
-               <img src={search} alt="" className="absolute right-1 top-1" />
+               <img src={search} alt="" className=" absolute right-1 top-1" />
              </div>
             <img src={like} alt="" className="mx-4" />
             <img src={cart} alt="" className="mx-4" />

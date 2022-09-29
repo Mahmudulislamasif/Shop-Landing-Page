@@ -4,7 +4,7 @@ const ProductRow = ({product}) => {
     const {image,title,brand,price}=product;
     return (
         
-            <div class="card w-96 bg-white text-left shadow-xl ">
+            <div class="card bg-white text-left shadow-xl mx-auto w-10/12 md:w-full ">
             <figure><img src={image} alt="Shoes" /></figure>
             <div class="card-body">
                 <h2 class=" text-2xl text-[#272727]">{title}</h2>

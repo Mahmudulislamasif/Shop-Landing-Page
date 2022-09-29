@@ -11,7 +11,7 @@ const Footer = () => {
                     <img src={Logo} alt="" />
                     <h1 className="text-6xl text-white ml-3">Globex</h1>
             </div>
-            <footer class="footer grid-cols-6 p-10  text-neutral-content ">
+            <footer class="footer grid-cols-1 md:grid-cols-6 p-10  text-neutral-content ">
               
             <div>
                 <span class="font-bold  text-white">Women</span> 
@@ -61,14 +61,14 @@ and once in a lifetime deals</h1>
             </div> 
            
             </footer>
-            <div className=' border-white border-t-2 flex justify-evenly items-center pt-2 '>
+            <div className=' border-white border-t-2 block md:flex justify-evenly items-center pt-2 '>
                    <div>
                      <h1 className="text-white">Terms & Conditions</h1>
                    </div>
                    <div>
                      <h1 className="text-white">Privacy & Policy</h1>
                    </div>
-                   <div className="flex">
+                   <div className="block md:flex">
                       <div>
                         <AiOutlineFacebook className="text-white text-xl"/>
                       </div>
