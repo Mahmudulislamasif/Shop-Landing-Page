@@ -1,0 +1,24 @@
+[
+    {
+        "id":1,
+        "title":"Womens Denim Jacket",
+        "image":"https://i.ibb.co/k9pyBdv/Rectangle375.png",
+        "brand":"Brand Name",
+        "price":"700"
+    },
+    {
+        "id":2,
+        "title":"Womens Denim Jacket",
+        "image":"https://i.ibb.co/26BzWGW/Rectangle376.png",
+        "brand":"Brand Name",
+        "price":"700"
+    },
+    {
+        "id":3,
+        "title":"Womens Denim Jacket",
+        "image":"https://i.ibb.co/f0qp8m1/Rectangle377.png",
+        "brand":"Brand Name",
+        "price":"700"
+    }
+
+]
