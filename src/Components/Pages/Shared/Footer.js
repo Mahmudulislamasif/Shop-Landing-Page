@@ -68,7 +68,7 @@ and once in a lifetime deals</h1>
                    <div>
                      <h1 className="text-white">Privacy & Policy</h1>
                    </div>
-                   <div className="block md:flex">
+                   <div className="flex">
                       <div>
                         <AiOutlineFacebook className="text-white text-xl"/>
                       </div>

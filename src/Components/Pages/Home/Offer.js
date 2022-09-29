@@ -4,7 +4,7 @@ const Offer = () => {
     return (
         <div>
             <h1 className="text-3xl text-left mt-28 ml-12 mb-7">Trending Offer</h1>
-            <div className="shadow-lg  grid container mx-auto grid-cols-1 md:grid-cols-3">
+            <div className="shadow-lg  grid container mx-auto w-10/12 md:w-full grid-cols-1 md:grid-cols-3">
                  <div>
                   <img src="https://i.ibb.co/5nqfzb2/Rectangle-13-1.png" alt="" />
                  </div>
