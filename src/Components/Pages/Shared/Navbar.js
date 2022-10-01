@@ -28,13 +28,19 @@ const Navbar = () => {
           </ul>
         </div>
         <div class="navbar-end">
-             <div className="relative hidden md:flex ">
-               <input type="text" placeholder="search" className="border bottom-2 py-1 px-2" />
-               <img src={search} alt="" className=" absolute right-1 top-1" />
+             <div className="flex items-center ">
+                <div>
+                 <input type="text" placeholder="Search here" className="border rounded-l-lg bg-[#F0F0F0] bottom-2 h-11 border-none p-2 focus:outline-none" />
+                </div>
+                <div>
+                <img src={search} alt="" className="bg-[#F0F0F0] w-7 py-3 px-1 rounded-r-lg"   />
+                </div>
              </div>
-            <img src={like} alt="" className="mx-4" />
-            <img src={cart} alt="" className="mx-4" />
-            <img src={face} alt="" className="mx-4" />
+             <div className="flex">
+                <img src={like} alt="" className="mx-3" />
+                <img src={cart} alt="" className="mx-4" />
+                <img src={face} alt="" className="mx-4" />
+             </div>
         </div>
         </div>
         </div>
